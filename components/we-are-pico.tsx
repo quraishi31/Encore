@@ -95,7 +95,7 @@ export default function WeArePico() {
                     className="group flex w-full items-center justify-between text-left"
                     onClick={() => setOpenRightIndex(isOpen ? null : index)}
                   >
-                    <span className="font-display text-[24px] font-medium tracking-[0.01em] text-white">{service.title}</span>
+                   <span className="font-display text-[24px] font-medium tracking-[0.01em] text-white transition-colors duration-300 group-hover:text-[#00d4c8]">{service.title}</span>
 
                     <span className="flex h-7 w-7 items-center justify-center rounded-full border border-white/70 text-white/65 transition-colors group-hover:border-white group-hover:text-white">
                       {isOpen ? <Minus size={14} /> : <Plus size={14} />}
