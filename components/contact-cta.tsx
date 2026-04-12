@@ -31,7 +31,7 @@ export function ContactCTA() {
 
           <button
             onClick={() => setIsModalOpen(true)}
-            className="inline-block rounded-full bg-primary px-16 py-6 font-semibold text-primary-foreground transition-all duration-300 hover:scale-105 hover:bg-primary/90 active:scale-95"
+            className="inline-block rounded-full bg-primary px-16 py-4 font-semibold text-primary-foreground transition-all duration-300 hover:scale-105 hover:bg-primary/90 active:scale-100"
           >
             Contact Us
           </button>
