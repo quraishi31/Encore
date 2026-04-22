@@ -3,7 +3,7 @@
 import Image from 'next/image'
 
 const clients = [
-  { src: '/clients/client1.png', alt: 'Client 1' },
+  { src: '/clients/client1.jpeg', alt: 'Client 1' },
   { src: '/clients/client2.jpeg', alt: 'Client 2' },
   { src: '/clients/client3.jpeg', alt: 'Client 3' },
   { src: '/clients/client4.jpeg', alt: 'Client 4' },
