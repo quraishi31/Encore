@@ -17,12 +17,12 @@ const services: ServiceItem[] = [
   {
     title: 'Activation',
     description:
-      'At 11th Hour, we believe true brand activation begins with purpose. As a trusted brand activation agency in Pakistan, we go beyond visibility to create experiences that carry meaning and intention.',
+      'At Encore Pakistan, we believe true brand activation begins with purpose. As a trusted brand activation agency in Pakistan, we go beyond visibility to create experiences that carry meaning and intention.',
   },
   {
     title: 'Cultural Events',
     description:
-      'At 11th Hour, local art performances represent the soul of Cultural Events & Experiences in Pakistan, bringing creativity, emotion, and authentic expression to life. We highlight local talent through music, dance, theater, and live artistic acts that reflect the Country’s rich and diverse cultural spirit.',
+      'At Encore Pakistan, local art performances represent the soul of Cultural Events & Experiences in Pakistan, bringing creativity, emotion, and authentic expression to life. We highlight local talent through music, dance, theater, and live artistic acts that reflect the Country’s rich and diverse cultural spirit.',
   },
   {
     title: 'Creativity & Design',
@@ -32,7 +32,7 @@ const services: ServiceItem[] = [
   {
     title: 'Custom Exhibition Booths',
     description:
-      'At 11th Hour, we see exhibition booths as more than just structures. They are powerful brand spaces where first impressions are formed, and lasting connections begin. Every booth is an opportunity to tell your story, attract attention, and invite people into your world. That is why printing and branding play such a vital role in how your space is experienced.',
+      'At Encore Pakistan, we see exhibition booths as more than just structures. They are powerful brand spaces where first impressions are formed, and lasting connections begin. Every booth is an opportunity to tell your story, attract attention, and invite people into your world. That is why printing and branding play such a vital role in how your space is experienced.',
   },
   {
     title: 'Fabrication & Setup',
@@ -69,11 +69,11 @@ export default function WeArePico() {
 }} />
       <div className="relative z-10 mx-auto max-w-[1200px] px-6 md:px-12">
         <h1 className="section-title mb-10 text-center text-[48px] font-semibold md:text-[68px] lg:text-[78px]">
-          <span className="text-[#00d4c8]">We are 11th Hour.</span>
+          <span className="text-[#00d4c8]">We are Encore Pakistan.</span>
         </h1>
 
         <p className="lead-copy mx-auto mb-20 text-center text-[22px] font-normal text-white md:mb-28 md:text-[30px]">
-          At 11th Hour, we turn ideas into unforgettable events that inspire and connect people. From planning to execution, we handle every detail with creativity and precision. With strong experience and a passion for quality, we deliver seamless, memorable experiences that leave a lasting impression.
+          At Encore Pakistan, we turn ideas into unforgettable events that inspire and connect people. From planning to execution, we handle every detail with creativity and precision. With strong experience and a passion for quality, we deliver seamless, memorable experiences that leave a lasting impression.
         </p>
 
         <div className="grid grid-cols-1 gap-x-16 md:grid-cols-2 lg:gap-x-24">
