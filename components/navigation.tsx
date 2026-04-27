@@ -31,7 +31,7 @@ export function Navigation() {
 
   const navItems = [
     { label: 'Home', href: '#Home' },
-    { label: 'Why Encore', href: '#Why11' },
+    { label: 'Why Encore', href: '#WhyEncore' },
     { label: 'Portfolio', href: '#works' },
     { label: 'Contact Us', href: '#footer' },
   ]
