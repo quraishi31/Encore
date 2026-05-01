@@ -9,7 +9,7 @@ export function Logo({ className = 'h-14 w-auto' }: { className?: string }) {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
-      aria-label="ENCORE"
+      aria-label="11th hour"
       role="img"
     >
       <defs>
