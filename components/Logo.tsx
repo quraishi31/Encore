@@ -11,9 +11,14 @@ export function Logo({ className = 'h-14 w-auto' }: { className?: string }) {
       className={className}
       aria-label="11th Hour"
       role="img"
-    >
+   >
       <defs>
-     
+        <linearGradient id={gradientId} x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style={{ stopColor: '#00c2a5', stopOpacity: 1 }} />
+          <stop offset="100%" style={{ stopColor: '#00e0c0', stopOpacity: 1 }} />
+        </linearGradient>
+        
+      <defs>
       <text
         x="122"
         y="64"
