@@ -1,30 +1,26 @@
-import { useId } from 'react'
-
-export function Logo({ className = 'h-14 w-auto' }: { className?: string }) {
-  const gradientId = useId()
-
-  return (
-   <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 576 432">
-    <defs>
-        <style>
-            .cls-1{fill:url(#linear-gradient);}.cls-2{fill:url(#linear-gradient-2);}.cls-3{fill:url(#linear-gradient-3);}.cls-4{font-size:72px;fill:#231f20;font-family:Fonarto;}
-        </style>
-        <linearGradient id="linear-gradient" x1="100.8" y1="251.96" x2="149.94" y2="214.03" gradientTransform="translate(-6.44 -16.08) rotate(-3.62)" gradientUnits="userSpaceOnUse">
-            <stop offset="0" stop-color="#2bc4f3" />
-            <stop offset="0.5" stop-color="#00aeee" />
-            <stop offset="1" stop-color="#0085c1" />
-        </linearGradient>
-        <linearGradient id="linear-gradient-2" x1="112.55" y1="277.19" x2="169.96" y2="232.87" gradientTransform="translate(-6.44 -16.08) rotate(-3.62)" gradientUnits="userSpaceOnUse">
-            <stop offset="0" stop-color="#2bc4f3" />
-            <stop offset="0.5" stop-color="#00aeee" />
-            <stop offset="1" stop-color="#0095da" />
-        </linearGradient>
-        <linearGradient id="linear-gradient-3" x1="164.45" y1="185.66" x2="184.13" y2="172.9" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#linear-gradient-2" />
-    </defs>
-    <path class="cls-1" d="M116.27,225.25c-.15-1-.26-2-.33-3a31.81,31.81,0,0,1,41.93-32.12C159,199,157.09,219.48,116.27,225.25Z" />
-    <path class="cls-2" d="M179.4,218.27A31.79,31.79,0,0,1,117,228.6c9.11.38,43-.69,46.21-36.06A31.77,31.77,0,0,1,179.4,218.27Z" />
-    <path class="cls-3" d="M164.53,185.76a1,1,0,0,1-.17-.78c.65-3.57,1.47-6.46,1.52-7,0-.1-.15-.16-.19-.06-.49,1.23-1.79,3.53-3,6.09a.81.81,0,0,1-.51.43l-8.23,2.29c-.05,0-.09,0-.05-.08l12.85-12s0,0,0,0l2.33,17.56a0,0,0,0,1,0,0Z" />
-    <text class="cls-4" transform="translate(195.92 244.13)">ENCORE</text>
-</svg>
-  )
-}
+<!-- ═══ NAVBAR ═══ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-brand" id="nav-brand">
+        <span class="brand-icon">🛒</span>
+        <span class="brand-text">Fresh<span class="brand-accent">Cart</span></span>
+      </a>
+      <div class="nav-search" id="nav-search">
+        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="text" id="search-input" placeholder="Search groceries..." autocomplete="off" />
+        <kbd class="search-kbd">Esc</kbd>
+      </div>
+      <div class="nav-actions">
+        <button class="nav-btn" id="orders-btn" title="My Orders">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          <span class="nav-btn-label">Orders</span>
+          <span class="badge orders-badge hidden" id="orders-badge">0</span>
+        </button>
+        <button class="nav-btn cart-btn" id="cart-btn" title="Shopping Cart">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          <span class="nav-btn-label">Cart</span>
+          <span class="badge cart-badge" id="cart-badge">0</span>
+        </button>
+      </div>
+    </div>
+  </nav>
