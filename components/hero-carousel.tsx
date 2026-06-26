@@ -37,7 +37,7 @@ export function HeroCarousel() {
       <div className="absolute inset-0 z-10 flex flex-col items-center justify-center px-4">
         <div className="w-full max-w-4xl text-center animate-slide-up">
           <h1 className="display-title mb-6 text-5xl font-semibold uppercase text-white drop-shadow-2xl md:text-7xl lg:text-[6.5rem]">
-            BUILDING BRANDS <br className="hidden md:block" /> DELIVERING RESULTS
+            Building Brands <br className="hidden md:block" /> Delivering Results
           </h1>
           <p className="lead-copy mx-auto mb-10 max-w-2xl text-lg font-normal text-gray-200 drop-shadow-md md:text-[1.55rem]">
             Corporate Event | Activations | Brand Solutions 
