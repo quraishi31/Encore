@@ -43,7 +43,7 @@ export function ContactModal({ isOpen, onClose }: ContactModalProps) {
         if (!open) onClose()
       }}
     >
-      <DialogContent className="w-[calc(100vw-1rem)] max-w-3xl overflow-hidden border-white/20 bg-[#0a0a0a] p-4 sm:max-h-[90dvh] sm:overflow-y-auto sm:p-7 md:p-9">
+      <DialogContent className="w-[calc(100vw-1rem)] max-w-3xl overflow-hidden border-white/20 bg-[#0a0a0a] p-4 sm:max-h-[90dvh] sm:overflow-y-auto sm:p-7 md:p-9 font-[family-name:var(--font-open-sans)]">
         <DialogHeader className="border-b border-white/10 pb-4 text-left sm:pb-5">
           <DialogTitle className="section-title pr-10 text-[2rem] font-semibold text-white sm:text-4xl md:text-5xl">
             Contact Information
