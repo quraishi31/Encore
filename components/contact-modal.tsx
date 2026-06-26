@@ -30,7 +30,7 @@ const contactItems = [
   {
     icon: MapPin,
     label: 'Office',
-    value: 'Main Shahra E Faisal Karachi, Pakistan',
+    value: 'PECHS Block 6, Main Shahra e Faisal Karachi, Pakistan',
     href: '#',
   },
 ]
