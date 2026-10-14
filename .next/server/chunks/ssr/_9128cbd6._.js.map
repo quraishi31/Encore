@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../app/Pf/page.tsx"],"sourcesContent":["export default function PortfolioPage() {\r\n  return (\r\n    <div>    this is the portfolio page        \r\n        </div>)}"],"names":[],"mappings":"8LAAe,SAAS,IACtB,MACE,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UAAI,kCACM"}

@@ -31,7 +31,7 @@ const contactItems = [
     icon: MapPin,
     label: 'Office',
     value: 'PECHS Block 6, Main Shahra e Faisal Karachi, Pakistan',
-    href: '#',
+    href: 'https://maps.google.com/?q=PECHS+Block+6+Main+Shahra+e+Faisal+Karachi+Pakistan',
   },
 ]
 
@@ -43,7 +43,7 @@ export function ContactModal({ isOpen, onClose }: ContactModalProps) {
         if (!open) onClose()
       }}
     >
-      <DialogContent className="w-[calc(100vw-1rem)] max-w-3xl overflow-hidden border-white/20 bg-[#0a0a0a] p-4 sm:max-h-[90dvh] sm:overflow-y-auto sm:p-7 md:p-9 font-[family-name:var(--font-open-sans)]">
+      <DialogContent className="w-[calc(100vw-1rem)] max-w-3xl overflow-hidden border-white/20 bg-[#0a0a0a] p-4 sm:max-h-[90dvh] sm:overflow-y-auto sm:p-7 md:p-9">
         <DialogHeader className="border-b border-white/10 pb-4 text-left sm:pb-5">
           <DialogTitle className="section-title pr-10 text-[2rem] font-semibold text-white sm:text-4xl md:text-5xl">
             Contact Information
@@ -77,7 +77,7 @@ export function ContactModal({ isOpen, onClose }: ContactModalProps) {
           <div className="rounded-[24px] border border-white/10 bg-white/[0.03] p-3 sm:rounded-none sm:border-0 sm:bg-transparent sm:p-0">
             <div className="mb-3 sm:hidden">
               <p className="text-[11px] font-semibold uppercase tracking-[0.3em] text-white/45">
-                11th Hour
+                Encore Pakistan
               </p>
               <p className="mt-2 text-sm text-white/72">
                 Fastest way to reach us for events, activations, gifting, and digital work.
@@ -103,12 +103,15 @@ export function ContactModal({ isOpen, onClose }: ContactModalProps) {
                 </div>
               )
 
-              if (item.href === '#') {
-                return <div key={item.label}>{content}</div>
-              }
-
+              const isExternal = item.href.startsWith('http')
               return (
-                <a key={item.label} href={item.href} className="block">
+                <a
+                  key={item.label}
+                  href={item.href}
+                  className="block"
+                  target={isExternal ? '_blank' : undefined}
+                  rel={isExternal ? 'noopener noreferrer' : undefined}
+                >
                   {content}
                 </a>
               )

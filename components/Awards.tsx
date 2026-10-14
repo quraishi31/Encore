@@ -18,15 +18,15 @@ type Client = {
 }
 
 const clients: Client[] = [
-  { name: 'Client 1', image: client1 },
-  { name: 'Client 2', image: client2 },
-  { name: 'Client 3', image: client3 },
-  { name: 'Client 4', image: client4 },
-  { name: 'Client 5', image: client5 },
-  { name: 'Client 6', image: client6 },
-  { name: 'Client 7', image: client7 },
-  { name: 'Client 8', image: client8 },
-  { name: 'Client 9', image: client9 },
+  { name: 'Easypaisa', image: client1 },
+  { name: 'Pepsi', image: client2 },
+  { name: 'Stylo', image: client3 },
+  { name: 'Lipton', image: client4 },
+  { name: "Domino's", image: client5 },
+  { name: 'Soya Supreme', image: client6 },
+  { name: 'Kenwood', image: client7 },
+  { name: 'Zong 4G', image: client8 },
+  { name: 'Abbott', image: client9 },
 ]
 
 function ClientCard({ client }: { client: Client }) {

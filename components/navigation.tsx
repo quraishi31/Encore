@@ -30,10 +30,10 @@ export function Navigation() {
   }, [])
 
   const navItems = [
-    { label: 'Home', href: '#Home' },
-    { label: 'Why Encore', href: '#WhyEncore' },
+    { label: 'Home', href: '/#Home' },
+    { label: 'Why Encore', href: '/#WhyEncore' },
     { label: 'Portfolio', href: '/Pf' },   
-    { label: 'Contact Us', href: '#footer' },
+    { label: 'Contact Us', href: '/#footer' },
   ]
 
   return (
@@ -50,7 +50,7 @@ export function Navigation() {
         >
           <div className="flex items-center justify-between">
             <div className="flex flex-1 justify-start">
-              <Link href="#" className="flex-shrink-0 transition-transform duration-300 hover:scale-105">
+              <Link href="/" aria-label="Encore Pakistan Home" className="flex-shrink-0 transition-transform duration-300 hover:scale-105">
                 <Logo className="h-11 w-auto md:h-12" />
               </Link>
             </div>
@@ -97,12 +97,6 @@ export function Navigation() {
                     {item.label}
                   </Link>
                 ))}
-                <div className="border-t border-white/10 px-1 pt-3">
-                  <button className="flex w-full items-center justify-center gap-1 rounded-2xl border border-white/10 bg-white/[0.03] px-3 py-3 text-sm font-medium text-white/80 transition-all duration-300 hover:bg-white/10 hover:text-white">
-                    EN
-                    <ChevronDown className="h-4 w-4" />
-                  </button>
-                </div>
               </div>
             </div>
           )}

@@ -49,7 +49,7 @@ export default function WeArePico() {
   const rightServices = services.slice(3, 6)
 
   return (
-    <section className="relative py-24 text-white md:py-32" id="WhyEncore" style={{backgroundColor: '#0a0a0a'}}>
+    <section className="relative py-24 text-white md:py-32" id="about" style={{backgroundColor: '#0a0a0a'}}>
       <div style={{
   position: 'absolute',
   inset: 0,
@@ -94,7 +94,7 @@ export default function WeArePico() {
                     </span>
                   </button>
 
-                  <div className={`overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? 'mt-4 max-h-40 opacity-100' : 'max-h-0 opacity-0'}`}>
+                  <div className={`overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? 'mt-4 max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}>
                     <p className="lead-copy text-[18px] font-light text-white/90">{service.description}</p>
                   </div>
                 </div>
@@ -119,7 +119,7 @@ export default function WeArePico() {
                     </span>
                   </button>
 
-                  <div className={`overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? 'mt-4 max-h-40 opacity-100' : 'max-h-0 opacity-0'}`}>
+                  <div className={`overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? 'mt-4 max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}>
                     <p className="lead-copy text-[18px] font-light text-white/90">{service.description}</p>
                   </div>
                 </div>

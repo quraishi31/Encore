@@ -1,6 +1,7 @@
 'use client'
 
 import * as React from 'react'
+import Link from 'next/link'
 import { ChevronRight } from 'lucide-react'
 import Autoplay from 'embla-carousel-autoplay'
 
@@ -65,7 +66,7 @@ export default function WorksSlider() {
   return (
     <section className="w-full bg-black py-12 pl-4 md:pl-12" id="works">
       <Carousel
-        plugins={[plugin.current]}
+        plugins={[plugin.current as any]}
         opts={{
           align: 'start',
           loop: true,
@@ -115,9 +116,11 @@ export default function WorksSlider() {
                     {item.title}
                   </h3>
 
-                  <Button className="h-12 rounded-lg border-none bg-primary px-8 text-base font-semibold text-primary-foreground transition-colors hover:bg-primary/90">
-                    View Case Study <ChevronRight className="ml-2 h-5 w-5" />
-                  </Button>
+                  <Link href="/Pf">
+                    <Button className="h-12 rounded-lg border-none bg-primary px-8 text-base font-semibold text-primary-foreground transition-colors hover:bg-primary/90">
+                      View Case Study <ChevronRight className="ml-2 h-5 w-5" />
+                    </Button>
+                  </Link>
                 </div>
               </div>
             </CarouselItem>

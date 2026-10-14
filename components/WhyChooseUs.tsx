@@ -55,7 +55,7 @@ const features: Feature[] = [
 
 export function WhyChooseUs() {
   return (
-    <section className="relative py-24">
+    <section className="relative py-24" id="WhyEncore">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="section-title text-balance text-5xl font-semibold text-white md:text-6xl">

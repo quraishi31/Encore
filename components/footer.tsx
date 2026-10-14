@@ -14,7 +14,7 @@ export function Footer() {
     { icon: Facebook, href: 'https://www.facebook.com/encorepk', label: 'Facebook' },
     { icon: Twitter, href: 'https://x.com/encorepk', label: 'X' },
     { icon: Instagram, href: 'https://www.instagram.com/encorepk', label: 'Instagram' },
-    { icon: Youtube, href: 'http://www.youtube.com/@encorepk', label: 'YouTube' },
+    { icon: Youtube, href: 'https://www.youtube.com/@encorepk', label: 'YouTube' },
   ]
 
   return (
@@ -27,7 +27,7 @@ export function Footer() {
             </div>
 
             <p className="max-w-[16rem] text-xs font-semibold uppercase tracking-[0.32em] text-white/50">
-              Brand activation, events, Giveawys
+              Brand activation, events, Giveaways
             </p>
 
             <p className="lead-copy max-w-2xl text-sm text-white/84 md:text-lg">
@@ -47,6 +47,8 @@ export function Footer() {
                     key={social.label}
                     href={social.href}
                     aria-label={social.label}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/[0.04] text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-white/[0.12]"
                   >
                     <Icon className="h-5 w-5" />

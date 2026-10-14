@@ -1,4 +1,19 @@
+# dependencies
 /node_modules
 node_modules
-.env
-dist
+
+# next.js build outputs
+.next/
+out/
+
+# testing and logs
+.playwright-mcp/
+*.log
+
+# environment files
+.env*
+!.env.example
+
+# misc
+dist/
+.DS_Store

@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Admin/Documents/Antigravety/Encore/app/Pf/page.tsx"],"sourcesContent":["export default function PortfolioPage() {\r\n  return (\r\n    <div>    this is the portfolio page        \r\n        </div>)}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;kBAAI;;;;;;AACM"}}]
-}
